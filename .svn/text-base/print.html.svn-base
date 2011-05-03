@@ -1,0 +1,12 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />	<title>Timeline of The University of Akron</title>	<link rel="stylesheet" href="css/print.css" />
+    </head>
+    <body>
+	    <div id="timeLineContainer">            
+			<div id="timeHeader" class="clearfix">
+				<h1>Timeline of The University of Akron</h1>                  
+			</div>			<!-- BEGIN TIMELINE -->
+			<div id="timeLineWrapper">				<div id="timeLine">				</div>
+			</div>			<!-- END TIMELINE -->	
+		</div>		        <!-- jQuery Javascript Library -->        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>		<!-- Script which parses the XML file -->        <script type="text/javascript" src="js/parse_xml.js"></script>
+    </body>
+</html>

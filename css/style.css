@@ -1,0 +1,343 @@
+div#timeLineContainer {
+    width: 913px;
+    border: 2px solid #31424A;
+  	background-color: #5a7a93;
+    z-index: 0;    
+	font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+	margin:0 auto;
+}
+
+div#timeLineContainer h1, div#timeLineContainer h2 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+div#timeLineContainer a {
+    color: #f7d600;
+	outline:none;
+}
+
+/*
+ *
+ * HEADER STYLING
+ *
+ */
+/*
+ * Header Div
+ */
+div#timeHeader {
+    display: block;
+    background-color: #31424A;
+}
+
+/*
+ * Time line Title
+ */
+div#timeHeader h1 {
+	display:block;
+    float: left;
+	margin:0;
+    font-size:24px;
+    width:853px;
+    padding: 12px 0 12px 0;
+    color: #fff;
+    text-align: center;
+	background-color: #31424A;
+	border-bottom: solid 2px #31424A;
+}
+
+/*
+ *
+ * TIMLINE STYLING
+ *
+ */
+div#timeLineWrapper {
+    clear: both;
+  	overflow: hidden;
+  	position: relative; /* fix for IE to respect overflow */
+}
+
+/*
+ * Timeline list which contains the years
+ */
+div#timeLine {
+    width: 999999px;
+    margin: 0;
+    padding: 0;
+	height: 1200px;
+}
+
+/*
+ * Container for each year
+ */
+div.timeYear {
+    float: left;
+    width: 181px;
+    border-right: 2px solid #31424A;
+    color: #fff;
+    height: 1200px;
+	display:none;
+}
+
+/*
+ * Year Heading
+ */
+h2.timeYearHead {
+    display: block;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size:24px;
+    padding: 10px 0 10px 0;
+    background-color: #f7d600;
+    color: #31424A;
+    border-bottom: solid 2px #31424A;
+}
+
+/*
+ * Event list
+ */
+ul.timeEvents {
+    white-space: normal;
+    margin: 0 0 0 10px;
+    padding: 15px;
+    list-style-type: square;
+    word-wrap: normal;
+    font-size: 12px;
+	font-weight:bold;
+}
+
+/*
+ * Event list elements
+ */
+ul.timeEvents li.timeEvent {
+    padding-bottom: 20px;
+}
+
+/*
+ * Footer area
+ */
+div#timeFooter {
+    background-color: #31424A;
+}
+
+/*
+ * Decade-based navigation
+ */
+
+ul#timeDecNav {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+ul#timeDecNav li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+ul#timeDecNav li a {
+	float:left;
+	margin:0;
+	border-right:2px solid #31424A;
+	border-bottom:2px solid #31424A;
+	display:inline-block;
+	padding:10px 0 10px 0;
+	width:59px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#5a7a93;
+}
+
+ul#timeDecNav li a:hover {
+    background-color: #F7D600;
+    color: #31424A;
+}
+
+ul#timeDecNav li a.last {
+    border-right:0;
+}
+
+a#timePrint {
+	display:block;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#5a7a93;
+	border-top:2px solid #31424A;
+}
+
+a#timePrint:hover {
+    background-color: #F7D600;
+    color: #31424A;
+}
+
+/*
+ * Navigation styling
+ */
+
+div#timeLineContainer p.nav {
+    display: block;
+    background-color: #31424A;
+    color: #F7D600;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px;
+    text-align: center;
+    font-size:32px;
+    outline: none;
+	margin:0;
+	cursor:pointer;
+	border-bottom: solid 2px #31424A;
+}
+
+div#timeLineContainer p.nav:hover {
+    background-color: #F7D600;
+    color: #31424A;
+}
+
+div#timeLineContainer p#prev {
+    float: left;
+}
+
+div#timeLineContainer p#next {
+    float: right;
+}
+
+/*
+ * MISC
+ */
+
+div#timeLoading {
+	position:absolute; 
+	width:100%; 
+	text-align:center; 
+	top:300px;
+}
+
+/*
+ * Background Image Sections
+ */
+
+div.section {
+	float:left;
+	background-repeat:no-repeat;
+	background-position:0 56px;
+	
+}
+
+div#s_0 {
+	background-image:url(../img/1870.jpg);
+}
+
+div#s_1 {
+	background-image:url(../img/1875.jpg);
+}
+
+div#s_2 {
+	background-image:url(../img/1880.jpg);
+}
+
+div#s_3 {
+	background-image:url(../img/1885.jpg);
+}
+
+div#s_4 {
+	background-image:url(../img/1890.jpg);
+}
+
+div#s_5 {
+	background-image:url(../img/1895.jpg);
+}
+
+div#s_6 {
+	background-image:url(../img/1900.jpg);
+}
+
+div#s_7 {
+	background-image:url(../img/1905.jpg);
+}
+
+div#s_8 {
+	background-image:url(../img/1910.jpg);
+}
+
+div#s_9 {
+	background-image:url(../img/1915.jpg);
+}
+
+div#s_10 {
+	background-image:url(../img/1920.jpg);
+}
+
+div#s_11 {
+	background-image:url(../img/1925.jpg);
+}
+
+div#s_12 {
+	background-image:url(../img/1930.jpg);
+}
+
+div#s_13 {
+	background-image:url(../img/1935.jpg);
+}
+
+div#s_14 {
+	background-image:url(../img/1940.jpg);
+}
+
+div#s_15 {
+	background-image:url(../img/1945.jpg);
+}
+
+div#s_16 {
+	background-image:url(../img/1950.jpg);
+}
+
+div#s_17 {
+	background-image:url(../img/1955.jpg);
+}
+
+div#s_18 {
+	background-image:url(../img/1960.jpg);
+}
+
+div#s_19 {
+	background-image:url(../img/1965.jpg);
+}
+
+div#s_23 {
+	background-image:url(../img/1985.jpg);
+}
+
+div#s_24 {
+	background-image:url(../img/1990.jpg);
+}
+
+div#s_25 {
+	background-image:url(../img/1995.jpg);
+}
+
+
+/* Clearing floats without extra markup
+ Based on How To Clear Floats Without Structural Markup by PiE
+ [http://www.positioniseverything.net/easyclearing.html] */
+div#timeLineContainer .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+div#timeLineContainer .clearfix {
+    display: block;
+}
+
+/* Regular clearing
+ apply to column that should drop below previous ones. */
+div#timeLineContainer .clear {
+    clear: both;
+}
