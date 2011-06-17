@@ -64,7 +64,7 @@ div#timeLine {
     width: 999999px;
     margin: 0;
     padding: 0;
-	height: 1200px;
+	height: 1400px;
 }
 
 /*
@@ -75,7 +75,7 @@ div.timeYear {
     width: 181px;
     border-right: 2px solid #31424A;
     color: #fff;
-    height: 1200px;
+    height: 1400px;
 	display:none;
 }
 
@@ -309,6 +309,18 @@ div#s_19 {
 	background-image:url(../img/1965.jpg);
 }
 
+div#s_20 {
+	background-image:url(../img/1965.jpg);
+}
+
+div#s_21 {
+	background-image:url(../img/1965.jpg);
+}
+
+div#s_22 {
+	background-image:url(../img/1980.jpg);
+}
+
 div#s_23 {
 	background-image:url(../img/1985.jpg);
 }
@@ -321,6 +333,17 @@ div#s_25 {
 	background-image:url(../img/1995.jpg);
 }
 
+div#s_26 {
+	background-image:url(../img/2000.jpg);
+}
+
+div#s_28 {
+	background-image:url(../img/2005.jpg);
+}
+
+div#s_27 {
+	background-image:url(../img/2005.jpg);
+}
 
 /* Clearing floats without extra markup
  Based on How To Clear Floats Without Structural Markup by PiE

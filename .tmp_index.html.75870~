@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />	<meta name="Author" content="Design: Trevor Burkholder, University of Akron Web Development Specialist, tburk83@gmail.com ~ Data: Victor Fleischer, University of Akron Head Archivist, svfleis@uakron.edu" />	<title>Timeline of The University of Akron</title>
+		<link rel="stylesheet" href="css/style.css" />
+
+    </head>
+    <body>    	
+	        <div id="timeLineContainer" class="clearfix">            
+	                <div id="timeHeader" class="clearfix">
+	                    <p class="nav" id="prev">&laquo;</p>
+						<h1>Timeline of The University of Akron</h1>                  
+						<p class="nav" id="next">&raquo;</p>
+	                </div>					<ul id="timeDecNav" class="clearfix">							<li><a href="#y_1870">1870</a></li>							<li><a href="#y_1880">1880</a></li>							<li><a href="#y_1890">1890</a></li>							<li><a href="#y_1900">1900</a></li>							<li><a href="#y_1910">1910</a></li>							<li><a href="#y_1920">1920</a></li>							<li><a href="#y_1930">1930</a></li>							<li><a href="#y_1940">1940</a></li>							<li><a href="#y_1950">1950</a></li>							<li><a href="#y_1960">1960</a></li>							<li><a href="#y_1970">1970</a></li>							<li><a href="#y_1980">1980</a></li>							<li><a href="#y_1990">1990</a></li>							<li><a href="#y_2000">2000</a></li>							<li><a class="last" href="#y_2010">2010</a></li>						</ul>					<!-- BEGIN TIMELINE -->
+	                <div id="timeLineWrapper"  class="clearfix">            			<div id="timeLoading">							<img src="img/loader.gif" alt="Loading" />						</div>     				    	<div id="timeLine"  class="clearfix">  		               	</div>					</div>					<!-- END TIMELINE -->
+
+					<div id="timeFooter" class="clearfix">						<a id="timePrint" target="_blank" href="print.html" id="timePrint">Printable Version</a>
+					</div>				
+		</div>		<!-- jQuery Javascript Library -->        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<!-- jQuery Scoll Plugins  -->
+		<script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="js/scroll_to.js"></script>		
+        <script type="text/javascript" src="js/serial_scroll.js"></script>		<script type="text/javascript" src="js/localscroll.js"></script>
+        <!-- include Cycle plugin -->
+		<script type="text/javascript" src="js/cycle.js"></script>		<!-- Script which parses the XML file -->        <script type="text/javascript" src="js/parse_xml.js"></script>
+    </body>
+</html>
